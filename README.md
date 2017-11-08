@@ -1,4 +1,4 @@
-#Four ways to write AJAX
+# Four ways to write AJAX
 
 ### Installation
 
