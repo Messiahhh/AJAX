@@ -1,9 +1,6 @@
 node_modules/*
-static/lib
-static/lib/*
-./static/lib/*
-
 package-lock.json
 
-./static/src/*
+static/lib
+static/src
 main.js
