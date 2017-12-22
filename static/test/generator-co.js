@@ -1,4 +1,4 @@
-//generator without co module
+//generator with co module
 const Ajax = ({
     method = 'get',
     url = '/',
@@ -47,12 +47,10 @@ Ajax.post = (url, data) => {
     })
 }
 
+
 function* use() {
     let data = yield Ajax.get('http://localhost:3000/getData')
     console.log(data)
 }
 
-let obj = use()
-obj.next().value.then((res) => {
-    obj.next(res)
-})
+co(use)

@@ -15,7 +15,8 @@ Then just visit  'localhost:3000' with chrome or firefox, and open the  devtool,
 
 - callback
 - Promise
-- generator(with or without co)
+- generator(with co)
+- generator(without co)
 - async
 
 
@@ -30,6 +31,7 @@ Then just visit  'localhost:3000' with chrome or firefox, and open the  devtool,
 <!-- <script src='./test/callback.js'></script> -->
 <!-- <script src='./test/promise.js'></script> -->
 <!-- <script src='./test/generator.js'></script> -->
+<!-- <script src='./test/generator-co.js'></script> -->
 <script src='./test/async.js'></script>
 ```
 
